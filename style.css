@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(129, 128, 128);
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: normal;
+}
+
+#hoja {
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  max-width: 800px;
+  min-height: 1200px;
+  margin: auto;
+  background-color: #fff;
+}
+
+#izquierda {
+  position: relative;
+  top: 200px;
+  width: 45%;
+  line-height: 120%;
+}
+#derecha {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 50%;
+  padding-left: 30px;
+  top: 200px;
+  line-height: 120%;
+}
+#hoja h1 {
+  color: #27384c;
+  font-size: 300%;
+  position: absolute;
+  display: inline-block;
+  width: 50%;
+  left: 40%;
+  top: 5%;
+}
+#Foto {
+  position: absolute;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  outline: #fff solid 20px;
+  border: 4px solid black;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  top: -150px;
+  left: 50px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+#Foto img {
+  position: relative;
+  left: -6%;
+  height: 150%;
+  bottom: 30%;
+}
+#caja_tl {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-color: #27384c;
+}
+[id^="circulo"] {
+  position: absolute;
+  border-radius: 50%;
+  background: repeating-linear-gradient(
+    135deg,
+    rgb(121, 109, 109),
+    rgb(113, 101, 101) 2px,
+    white 1px,
+    white 7px
+  );
+}
+#circulo_tr {
+  top: -2%;
+  right: -5%;
+  width: 15%;
+  height: 10%;
+}
+#circulo_bl {
+  left: -7%;
+  bottom: 5%;
+  width: 15%;
+  height: 10%;
+}
+#circulo_br {
+  right: -5%;
+  bottom: -5%;
+  width: 15%;
+  height: 10%;
+}
+#sobre_mi,
+#idiomas,
+#contacto {
+  position: relative;
+  top: 100px;
+}
+#sobre_mi p {
+  text-align: center;
+  padding: 0px 5% 50px 5%;
+  line-height: 120%;
+}
+#contacto ul {
+  list-style: none;
+  padding: 3% 0px 3% 15%;
+}
+#contacto li {
+  padding: 5% 0px 5% 20%;
+}
+#telefono {
+  background-image: url(assets/imgs/telefono.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#correo {
+  background-image: url(assets/imgs/correo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#vivienda {
+  background-image: url(assets/imgs/casa.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#idiomas ul {
+  padding-left: 40px;
+}
+#exp_lab,
+#form_aca,
+#habilidades {
+  width: 100%;
+  position: relative;
+  margin: 0px auto;
+}
+#hoja h2 {
+  color: #fff;
+  font-weight: 400;
+  background-color: #27384c;
+  text-align: center;
+  padding: 3% 0px;
+  margin: 20px 0px;
+}
+#sobre_mi #t_sobre {
+  color: #000;
+  background-color: #ffffff;
+}
+#exp_lab article h3 {
+  padding: 2% 0px;
+}
+#exp_lab ul {
+  padding-left: 10%;
+}
+#form_aca h3 {
+  padding-top: 2%;
+}
+#habilidades ul,
+#idiomas ul {
+  padding-left: 20%;
+}
+#habilidades li,
+#idiomas li {
+  font-size: 120%;
+  padding-bottom: 5%;
+}
